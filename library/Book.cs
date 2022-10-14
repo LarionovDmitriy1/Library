@@ -33,5 +33,12 @@ namespace library
             Console.WriteLine($"Год выпуска - {_date}");
             Console.WriteLine();
         }
+        public string GetName()
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Имя автора - {_nameAuthor}");
+            Console.WriteLine();
+            return _nameAuthor;
+        }
     }
 }
